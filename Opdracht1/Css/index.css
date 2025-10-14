@@ -1,0 +1,9 @@
+body {
+      
+      background-image: "achtergrond_comptressed.jpg";
+      background-color: red;
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
