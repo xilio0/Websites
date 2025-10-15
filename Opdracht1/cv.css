@@ -1,0 +1,121 @@
+body {
+background-image: url(Img/achtergrond.png);
+background-color: rgb(14, 77, 7);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 5px;
+}
+
+a:hover{
+  background-color: #187743;
+  box-shadow: 0 0 20px #187743;
+  transform: scale(1.1);
+}
+
+.index{
+  padding: 4px 11px;
+  border: 1px solid #092114;
+  background-color: #0f6c39;
+  color: #013518;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cv{
+  padding: 4px 8px;
+  border: 1px solid #092114;
+  background-color: #0f6c39;
+  color: #013518;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.overmij{
+  padding: 4px 8px;
+  border: 1px solid #092114;
+  background-color: #0f6c39;
+  color: #013518;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ervaring{
+  padding: 4px 8px;
+  border: 1px solid #092114;
+  background-color: #0f6c39;
+  color: #013518;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact{
+  padding: 4px 8px;
+  border: 1px solid #092114;
+  background-color: #0f6c39;
+  color: #013518;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.text{
+  color: rgb(203, 236, 210);
+  font-family: "McLaren", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-right: 2px;
+  max-width: 700px; 
+}
+
+.texth1{
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+.cvfoto{
+   position: sticky;
+    margin-left: 580px;
+    margin-top: 10px;
+    width: 550px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}

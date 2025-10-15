@@ -1,6 +1,6 @@
 body {
-background-image: url(../Img/achtergrond.png);
-background-color: rgb(0, 255, 26);
+background-image: url(Img/achtergrond.png);
+background-color: rgb(14, 77, 7);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -45,7 +45,7 @@ a:hover{
   text-decoration: none;
 }
 
-.hobby{
+.overmij{
   padding: 4px 8px;
   border: 1px solid #092114;
   background-color: #0f6c39;
@@ -100,6 +100,7 @@ a:hover{
   font-style: normal;
   border-right: 2px;
   max-width: 700px; 
+  margin-left: 20px;
 }
 
 .texth1{
@@ -126,7 +127,7 @@ a:hover{
   margin-top: -300px;
   padding-right: 30px;
   padding-bottom: 30px;
-  width: 750px;
+  width: 560px;
 }
 
 .nav-links{
