@@ -1,10 +1,10 @@
 body {
-background-image: url(Img/achtergrond.png);
+background-image: url(achtergrond.png);
 background-color: rgb(14, 77, 7);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-padding-top: 5px;
+height: 100vh;
 }
 
 a:hover{
@@ -93,28 +93,27 @@ a:hover{
   text-decoration: none;
 }
 
-.text{
+#text{
   color: rgb(203, 236, 210);
   font-family: "McLaren", sans-serif;
   font-weight: 400;
   font-style: normal;
-  border-right: 2px;
   max-width: 700px; 
   margin-left: 20px;
 }
 
-.texth1{
+#texth1{
   font-size: 3rem;
   margin-bottom: 0px;
 }
 
-.texth2{
+#texth2{
   font-size: 1.5rem;
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
-.texth3{
+#textp{
   font-size: 1.3rem;
   margin-top: 0px;
   margin-right: 20px;

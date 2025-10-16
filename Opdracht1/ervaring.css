@@ -1,10 +1,10 @@
 body {
-background-image: url(Img/achtergrond.png);
+background-image: url(achtergrond.png);
 background-color: rgb(14, 77, 7);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-padding-top: 5px;
+height: 100vh;
 }
 
 a:hover{
@@ -100,6 +100,7 @@ a:hover{
   font-style: normal;
   border-right: 2px;
   max-width: 700px; 
+  margin-left: 20px;
 }
 
 .texth1{
@@ -113,7 +114,7 @@ a:hover{
   margin-bottom: 20px;
 }
 
-.texth3{
+.textp{
   font-size: 1.3rem;
   margin-top: 0px;
   margin-right: 20px;

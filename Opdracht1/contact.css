@@ -1,10 +1,10 @@
 body {
-background-image: url(Img/achtergrond.png);
+background-image: url(achtergrond.png);
 background-color: rgb(14, 77, 7);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-padding-top: 5px;
+height: 100vh;
 }
 
 a:hover{
@@ -100,6 +100,7 @@ a:hover{
   font-style: normal;
   border-right: 2px;
   max-width: 700px; 
+  margin-left: 20px;
 }
 
 .texth1{
@@ -107,10 +108,10 @@ a:hover{
   margin-bottom: 0px;
 }
 
-.texth2{
-  font-size: 1.5rem;
+.textp{
+  font-size: 1.3rem;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .mijn-foto2{
@@ -125,4 +126,29 @@ a:hover{
   display: flex;
   gap: 5px;
   margin-bottom: 20px;
+}
+
+label {
+      color: rgb(203, 236, 210);
+      font-family: "McLaren", sans-serif;
+        }
+        
+ input, textarea {
+       background: #0a1f0a;
+       color: rgb(203, 236, 210);
+       border: 1px solid rgb(203, 236, 210);
+       padding: 8px;
+        }
+        
+input[type="submit"] {
+       background: #0a1f0a;
+       color: rgb(203, 236, 210);
+       border: 1px solid rgb(203, 236, 210);
+       padding: 10px 20px;
+       cursor: pointer;
+       }
+
+.verplaatstabel {
+    margin-left: 20px;
+    margin-top: 50px;
 }

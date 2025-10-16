@@ -1,10 +1,10 @@
 body {
-background-image: url(Img/achtergrond.png);
+background-image: url(achtergrond.png);
 background-color: rgb(14, 77, 7);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-padding-top: 5px;
+height: 100vh;
 }
 
 a:hover{
@@ -98,8 +98,8 @@ a:hover{
   font-family: "McLaren", sans-serif;
   font-weight: 400;
   font-style: normal;
-  border-right: 2px;
   max-width: 700px; 
+  margin-left: 20px;
 }
 
 .texth1{
@@ -113,16 +113,72 @@ a:hover{
   margin-bottom: 20px;
 }
 
+.textp{
+  font-size: 1.3rem;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
 .mijn-foto2{
   float: right;
   margin-left: 20px;
-  margin-top: -460px;
+  margin-top: -1555px;
   padding-right: 30px;
-  width: 750px;
+  width: 650px;
+}
+
+.mijn-foto3{
+  float: right;
+  margin-left: 20px;
+  margin-top: -1090px;
+  padding-right: 30px;
+  width: 650px;
 }
 
 .nav-links{
   display: flex;
   gap: 5px;
   margin-bottom: 20px;
+}
+
+.talen{
+    background: #0a1f0a;
+    font-family: "McLaren", sans-serif;
+    color: rgb(203, 236, 210);
+}
+
+table {  
+    max-width: 1000px;
+    background: rgba(10, 31, 10, 0.8);
+}
+
+caption { 
+    background: transparent;
+    color: rgb(203, 236, 210);
+    padding: 15px; 
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+}
+
+th { 
+    background: rgba(26, 77, 46, 0.6);
+    color: rgb(203, 236, 210);
+    padding: 12px 20px; 
+    font-weight: 400;
+    text-align: left;
+    border-bottom: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+td { 
+    background: transparent;
+    padding: 12px 20px; 
+    color: rgb(203, 236, 210);
+    border-bottom: 1px solid rgba(76, 175, 80, 0.2);
+}
+
+table.waartabel {
+    float: right;
+    margin-right: 30px;
+    margin-top: -500px;
 }
